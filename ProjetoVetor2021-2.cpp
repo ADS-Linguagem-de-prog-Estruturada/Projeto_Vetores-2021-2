@@ -3,6 +3,7 @@
 #include<string.h>
 #include<stdlib.h>
 
+
 int menu();
 
 //int idUsuario[i], int vacina[i],nome[i], eMail[i], sexo[i], endereco[i], altura[i]//
@@ -19,7 +20,7 @@ switch(opc){
 			case 1:
 			
 				printf(" [1]\tVoce escolheu a opcao 1\n");// teste apenas para apresentar uma mensagem ilustrando o funcionamento do menu (excluir futuramente)//
-				
+				system ("pause");
 				//insira aqui a função cadastrar//			
 			
 				break;	
@@ -53,7 +54,7 @@ system ("cls");
 	do{
 		system ("cls");
 		printf("\n==================================================\n");
-		printf("\tSelecione uma opçao: ");
+		printf("\tSelecione uma opcao: ");
 		printf("\n==================================================\n");
 		printf(" [1]\tCadastrar Novo Usuario\n");
 		printf(" [2]\tListar Usuarios Cadastrados\n");
